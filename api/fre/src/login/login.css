@@ -1,0 +1,74 @@
+.login {
+    text-align: center;
+    overflow: hidden;
+    width: 370px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.login li {
+    padding: 10px;
+    margin: 5px;
+}
+
+.login li input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+
+}
+
+.login li button {
+    background: var(--primary);
+    color: #555;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.login li a{
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.login li h1 {
+    color: #333;
+    padding: 10px 0;
+}
+.login h1{
+    color: #333;
+}
+
+button:disabled {
+    opacity: .7;
+    cursor: wait !important;
+}
+
+.login select {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 340px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.login p {
+    background: #555;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    color: var(--secondary);
+}
+
+button[type=error]{
+    background: #fc4761!important;
+}

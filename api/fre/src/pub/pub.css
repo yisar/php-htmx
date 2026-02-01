@@ -1,0 +1,114 @@
+.pub i {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pub i:hover {
+    background: #eee;
+}
+
+.pub {
+    width: 800px;
+    min-height: 200px;
+    margin: 30px auto;
+}
+
+.pub input {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.minipub {
+    width: 300px;
+    min-height: 200px;
+    margin: 10px auto;
+    background: #fff;
+    text-align: center;
+}
+
+.pub textarea,
+.minipub textarea {
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    resize: none;
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pub textarea:nth-child(2) {
+    border-radius: 0 0 10px 10px;
+}
+
+.pub section {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+.pub pre {
+    white-space: break-spaces;
+    padding: 20px 0;
+}
+
+.pub .submit {
+    text-align: right;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.submit button {
+    padding: 8px 40px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
+
+.options select {
+    padding: 5px 17px;
+    border: 0;
+    color: #666;
+    margin: 20px 20px 20px 0;
+    border-radius: 10px;
+}
+
+.options input {
+    border: none;
+    outline: none;
+    background: #ddd;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: auto!important;
+}
+
+.tags li {
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+    padding: 2px 10px;
+    background: #e2e2e2;
+    color: #666;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.tags li.active {
+    color: #333;
+    background: var(--primary);
+}

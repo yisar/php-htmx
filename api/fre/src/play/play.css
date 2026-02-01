@@ -1,0 +1,98 @@
+.play .play-box {
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+    min-height: auto;
+}
+
+.play .instro h1 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+
+.play p span {
+    padding-right: 10px;
+}
+
+.play p span::after {
+    content: "/";
+    padding-left: 8px;
+    color: #ddd;
+}
+
+.play p i {
+    font-style: normal;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.play p i::before {
+    content: '#';
+    color: var(--secondary);
+    padding-right: 2px;
+    font-size: 15px;
+}
+
+.comments .replies{
+    background: #fff;
+    /* color: var(--primary); */
+}
+
+.play .player,
+.play .ep-wrap {
+    width: 670px;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.play .player{
+    margin: 10px 0;
+}
+
+.play-right ul li {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.play-right ul li.active {
+    color: var(--primary2);
+    background: var(--secondary-bg);
+}
+
+.play .play-right ul {
+    max-height: 430px;
+    overflow-y: scroll;
+}
+
+.play-right{
+    margin-bottom: 0;
+}
+
+.play .instro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play .instro button{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.play .instro .flex{
+    align-items: center;
+}
+
+.play .instro .a{
+    padding-right: 10px;
+}
+
+.comments li{
+    margin: 0;
+    background: #f2f2f2;
+    border-radius: 0 0 8px 8px;
+}
