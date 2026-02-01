@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "jsx": "preserve",
-        "lib": [
-            "dom",
-            "es2018"
-        ],
-    }
-}
